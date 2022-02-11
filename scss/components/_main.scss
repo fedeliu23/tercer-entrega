@@ -1,0 +1,52 @@
+
+/* Inicio Main */
+
+h2 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.precios {
+    .antes {
+        font-size: 16px;
+        font-weight: bolder;
+        color: $font-color;
+        text-decoration: line-through;
+    }
+    .ahora {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    
+    .col {
+        width: 50%;
+    }
+    
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-70 {
+        width: 70%;
+        .rack {
+            border: solid;
+        }
+    }
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+/* Fin Main */

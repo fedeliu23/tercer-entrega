@@ -1,0 +1,26 @@
+/* Inicio Productos */
+
+
+
+
+
+.muebles {
+    @include medidas(300px, 300px, none)
+}
+
+.proyectando {
+    @include medidas(98%, 250px, solid)
+}
+
+.card {
+    @include medidas(420px, 300px, solid)
+}
+
+.productos {
+    padding: 40px;
+}
+
+
+
+
+/* Fin Productos */

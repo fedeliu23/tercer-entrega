@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Desktop */
+@media only screen and (min-width: 969px) {
+    .grid-container { 
+        background-color: #656256;
+    }
+}
+ 
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 968px) {
+    .grid-container {
+        background-color: rgb(30, 194, 93);
+    }
+}
+  /*   Mobile */
+  @media only screen and (max-width: 480px) {
+      .grid-container {
+          background-color: rgb(139, 20, 114);
+          
+      }
+}
+
+
+/* Header */
+
+.menu-container {
+    background-color:#828F7B;
+    padding: 20px 0;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ } 
+
+
+
+header nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(2, 2, 31);
+}
+
+header nav a:hover {
+    color: lavenderblush;
+}
+
+
+.logo {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: start;
+}
+
+/* Fin Header */
+
+
+
+/* anuncio de envios */
+
+h2 {
+    background-color: antiquewhite;
+    color: rgb(7, 7, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+
+.camion {
+    width: 75px;
+    height: 75px;
+}
+
+/* fin de anuncio */
+
+
+
+body {
+    background-color: #656256;
+}
+
+/* Productos */
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'proyecto proyecto proyecto'
+    'comoda rack sorteo'
+    'vajillero escritorio sorteo';
+    place-items: center;
+    gap: 20px;
+    position: relative;
+    border: 3px solid rgb(243, 234, 234);
+    color: rgb(243, 234, 234);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+}
+
+
+.grid-uno {
+    grid-area: proyecto; 
+    justify-content: center;   
+}
+
+.grid-dos {
+    grid-area: sorteo;
+}
+
+.grid-tres {
+    grid-area: comoda;
+}
+
+.grid-cuatro {
+    grid-area: rack;
+}
+
+.grid-cinco {
+    grid-area: vajillero;
+}
+
+.grid-seis {
+    grid-area: escritorio;
+}
+
+
+
+
+
+.parrafo {
+    width: 350px;
+    height: 100px;
+}
+
+/* .muebles1 {
+    width: 85%;
+    height: 100 px;
+} */
+
+.muebles {
+    width: 350px;
+    height: 150px;
+    border: solid;
+}
+
+.proyectando {
+    width: 98%;
+    height: 250px;
+    border: solid;
+    
+}
+
+.taladro {
+    width: 400px;
+    height: 600px;
+    border: solid rgb(243, 234, 234); 
+}
+
+
+/* Fin productos */
+
+
+
+.sorteo-taladro {
+    background-color: antiquewhite;
+    color: rgb(7, 7, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;  
+}
+
+
+
+
+h3, h4 {
+    color: rgb(243, 234, 234);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* El taller / Nuestra historia */
+
+
+.parrafo1 {
+    color: rgb(243, 234, 234);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
+    padding: 20px 0px;
+}
+
+/* Fin El Taller / Nuestra historia */
+
+    
+
+
+/* Footer */
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    width: 98%;
+    height: 98%;
+    background-color: rgb(52, 57, 59);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    align-items: flex-end;
+
+}
+
+.logo2 {
+    width: 300px;
+    height: 250px;
+    align-items: flex-end;
+}
+
+/* Fin footer */
